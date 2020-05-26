@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 687px;
+    display: flex;
+    background-color: rgb(139, 137, 253);
+
+}
+.content{
+    height: 400px;
+    width: 75%;
+    background-color: white;
+    justify-content: space-between;
+    margin: auto;
+    border-radius: 4px;
+    box-shadow: 0px 5px 40px gray;
+    padding: 20px;
+}
+.cont-pad{
+    height: 100%;
+    width: 100%;
+}
+.box1{
+    width: 33.3333333333%;
+    height: 100%;
+    background-color: white;
+    float: left;
+    border-radius: 7px;
+    transition: background-color 0.7s;
+}
+.box1:hover{
+    background-color: rgb(236, 236, 236);
+    transition: 0.7s;
+    cursor: pointer;
+}
+.box2:hover{
+    background-color: rgb(236, 236, 236);
+    transition: 0.7s;
+    cursor: pointer;
+}
+.box3:hover{
+    background-color: rgb(236, 236, 236);
+    transition: 0.7s;
+    cursor: pointer;
+}
+.box2{
+    width: 33.3333333333%;
+    height: 100%;
+    background-color:white; 
+    float: left;
+    border-radius: 7px;
+    transition: background-color 0.7s;
+}
+.box3{
+    width: 33.3333333333%;
+    height: 100%;
+    background-color: white; 
+    float: left;
+    border-radius: 7px;
+    transition: background-color 0.7s;
+}
+.img{
+    display: flex;
+    padding: 20px 30px;
+}
+.img img{
+    width: 80px;
+    margin: auto;
+}
+.product{
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: calibri;
+    color: blue;
+    text-align: center;
+    padding: 20px 0;
+    letter-spacing: 0.2em;
+}
+.message{
+    color: grey;
+    text-align: center;
+    font-family: calibri;
+    font-size: 1.003em;
+    padding: 5px 35px;
+}
+.price{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.6em;
+    color: blue;
+    font-family: tahoma;
+}
+

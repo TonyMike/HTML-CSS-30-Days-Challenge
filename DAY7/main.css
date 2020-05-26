@@ -1,0 +1,109 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(245, 211, 166);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    background-color: white;
+    width: 70%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 60%;
+}
+.left-box{
+    background-color:#4D4D4D;
+    padding: 50px 10px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.left-top h1{
+    color:white;
+    font-family:calibri;
+    font-size: 2.7em;
+}
+.left-top h2{
+    color:white;
+    font-family:calibri;
+    font-size: 1.8em;
+    font-weight: lighter;
+}
+.left-top h2::after{
+    content:'';
+    display:block;
+    width:20%;
+    height: 4px;
+    background-color:rgb(241, 149, 113);
+    margin-top: 8px;
+}
+.left-down{
+    display: flex;
+    align-items: center;
+}
+.left-down div:nth-child(2){
+    color:white;
+    font-family: calibri;
+    margin-left: 10px;
+    font-size: 21px;
+}
+.pix{
+    box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.664);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+.pix img{
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+/*---------RIGHT BOX SECTION---------*/
+.right-box{
+    background-color:white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 85% 15%;
+}
+.top{
+    padding: 50px 30px 0px;   
+}
+.top div{
+    font-family: calibri;
+    font-size: 1.25em;
+}
+.top div::first-letter{
+    font-weight: 600;
+    font-size: 1.6em;
+}
+.bottom{
+    box-shadow: 0px -8px 10px -4px #f1f1f1;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.time{
+    font-family:calibri;
+    font-size: 18px;
+}
+.time span{
+    font-weight: 700;
+}
+.chat{
+    display:flex;
+}
+.chat p{
+    color: gray;
+    font-family: calibri;
+    padding: 0px 20px 0px 10px;
+}

@@ -1,0 +1,156 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding: 0%;
+}
+/* CONTAINER SECTION */
+.container{
+    background-image: url("background.jpg");
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.box{
+    width: 360px;
+    height: 368px;
+    background-color: white;
+    border-radius: 4px;
+}
+/* PAYMENT SECTION */
+.pay{
+    padding: 5px 20px 25px 20px;
+}
+.pay h2{
+    text-align: center;
+    font-family: calibri;
+    font-size: 1.7em;
+}
+.pay p:nth-child(1){
+    height: 6.3px;
+    width: 6.3px;
+    background:rgb(168, 167, 167);;
+    border-radius: 20px;
+    margin: 4px;
+}
+.pay p:nth-child(2){
+    height: 6.3px;
+    width: 6.3px;
+    background: rgb(218, 216, 216);
+    border-radius: 20px;
+    margin: 4px;
+}
+.pay p:nth-child(3){
+    height: 6.3px;
+    width: 6.3px;
+    background: rgb(240, 239, 239);
+    border-radius: 20px;
+    margin: 4px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+/* VISA SECTION */
+.visa{
+    display: flex;
+    padding: 15px 30px 20px ;
+    border-top: 1px solid rgb(207, 206, 206);
+    transition: background-color 0.7s;    
+}
+.visa img{
+    max-width: 60px;
+    padding-right: 10px;
+}
+.visa:hover{
+    background-color:rgb(240, 239, 239); 
+    transition: 0.7s;
+    cursor: pointer;
+}
+.visa p{
+    padding-top: 5px;
+    font-family: calibri;
+    font-size: 1.13em;
+    color: grey;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+/* MASTER SECTION */
+.master{
+    display: flex;
+    padding: 15px 30px 20px ;
+    border-top: 1px solid rgb(207, 206, 206);
+    transition: background-color 0.7s;
+}
+.m-logo img{
+    max-width: 60px;
+    padding-right: 10px;    
+}
+.master p{
+    padding-top: 4px;
+    font-family: calibri;
+    font-size: 1.12em;
+    color: black;
+    font-weight: 600;
+    padding-left: 10px;
+
+}
+.master:hover{
+    background-color:rgb(240, 239, 239); 
+    transition: 0.7s;
+    cursor: pointer;
+}
+.check img{
+    margin-left:120px;
+    margin-top: 5px;
+
+/* MAESTRO SECTION */
+
+}
+.maestro{
+    display: flex;
+    padding: 15px 30px 20px ;
+    border-top: 1px solid rgb(207, 206, 206);
+    transition: background-color 0.7s;
+}
+.maestro:hover{
+    background-color:rgb(240, 239, 239); 
+    transition: 0.7s;
+    cursor: pointer;
+}
+.maestro img{
+    max-width: 60px;
+    padding-right: 10px;
+}
+.maestro p{
+    padding-top: 5px;
+    font-family: calibri;
+    font-size: 1.13em;
+    color: grey;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+/* BUTTON SECTION */
+.next-btn{
+    display: flex;
+    padding: 15px 30px 20px ;
+    background-color: blue;
+    justify-content: center;
+    transition: background-color 0.7s;
+
+}
+.next-btn a{
+    color: white;
+    text-decoration: none;
+    font-family: calibri;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+.next-btn:hover{
+    background-color: rgb(75, 75, 250);
+    transition: 0.7s;
+}

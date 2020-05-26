@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url('background.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.content{
+    background-color:white;
+    height:500px;
+    width: 450px;
+    position: absolute;
+    top: 70px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding:45px;
+}
+.box{
+    /* background-color:palegreen; */
+    height: 100%;
+}
+
+/* LOCATION SECTION */
+.location{
+    display: grid;
+    grid-template-columns:1fr 60px 1fr;
+    grid-template-rows: 70px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.fra, .ams{
+    color: rgb(79, 79, 245);
+    font-size: 1.8em;
+    font-family: segoe Ui;
+    font-weight: 600;
+}
+.long-box{
+    height: 5px;
+    width: 32px;
+    background-color:rgb(196, 210, 255);
+    justify-self: center;
+    align-self: flex-end;
+    border-radius: 9%;
+}
+.ams{
+    text-align: right;
+}
+.fra p, .ams p{
+    color: grey;
+    font-size: 18px;
+    font-family: calibri;
+    font-weight: 500;
+}
+
+
+/* DETAILS SECTION */
+.details{
+    width: 100%;
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: end;
+}
+.flight p, .gate p, .seat p{
+    color:grey ;
+    font-family: calibri;
+    padding-bottom: 2px;
+    font-size: 17px;
+}
+.flight h2, .gate h2, .seat h2{
+    font-size: 1.6em;
+    font-family: calibri;
+}
+
+/* FLIGHT DETAILS SECTION  */
+.f-details{
+    display: grid;
+    grid-template-columns: 53% 47%;
+    grid-template-rows: 188px;
+    margin-top: 20px;
+}
+
+.name p, .class p, .departure p{
+    color: grey;
+    padding-bottom: 5px;
+}
+.name, .class, .departure{
+    margin-bottom: 20px;
+}
