@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    background-color:#F7CD75 ;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 63%;
+    box-shadow: 0px 25px 20px -4px #E1BB6B;
+    display: grid;
+    grid-template-columns: 1fr 63%;
+    grid-template-rows: 460px;
+}
+
+/* LEFT-BOX SECTION */
+.left-box{
+    background-color: #F2F2F2;
+    border-radius: 4px 0px 0px 4px;
+    padding: 40px;
+    overflow-y: scroll;
+}
+.left-box::-webkit-scrollbar{
+    width: 8px;
+}
+.left-box::-webkit-scrollbar-thumb{
+    background-color:rgb(173, 173, 173);
+    border-radius: 10px;
+}
+.wallet-box{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'roboto','calibri';
+    color: #1C242E;
+    font-size: 1.3em;
+}
+.left-box a{
+    text-decoration: none;
+}
+.card{
+    height: 110px;
+    background-color: white;
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 6px;
+    border: 1px solid #D6D6D6;
+    padding-left: 10px;
+    padding-top: 10px;
+    transition: border 0.3s;
+}
+.card img{
+    max-width: 60px;
+}
+.card:hover{
+    border  : 2px solid blue;
+    transition: 0.7s;
+}
+.card div{
+    color:#444645;
+    font-family:'roboto','calibri';
+    padding-top: 5px;
+}
+.left-box a:nth-child(3) .card{
+    border  : 2px solid blue;
+}
+
+/* RIGHT-BOX SECTION */
+.right-box{
+    background-color:white;
+    border-radius: 0px 4px 4px 0px;
+    padding: 40px;
+    overflow-y:auto;
+}
+.right-box::-webkit-scrollbar{
+    width: 8px;
+}
+.right-box::-webkit-scrollbar-thumb{
+    background-color:rgb(173, 173, 173);
+    border-radius: 10px;
+}
+.balance-info{
+    display: flex;
+    justify-content: space-between;
+    font-family: calibri;
+    color: #272727;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 40px;
+}
+.trans-box{
+    display: grid;
+    grid-template-columns: 45px 1fr 55px;
+    margin-top: 30px;
+    grid-auto-rows: 50px;
+}
+.opt{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.opt img{
+    max-width: 18px;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 50%;
+    padding: 2px;
+}
+.trans-info{
+    font-family: calibri;
+    align-self: center;
+    font-size: 1.15em;
+}
+.trans-info p{
+    color: #9b9b9b;
+    font-size: 12px;
+    font-family:arial;
+    padding-top: 3px;
+}
+.price{
+    font-family: calibri;
+    align-self: center;
+    justify-self: end;
+    color: #7282B1;
+}
+#funds{
+    color: #84C858;
+}
